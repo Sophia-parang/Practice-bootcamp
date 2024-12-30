@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Demo</title>
+</head>
+
+<body>
+    <h1>Forms Demo</h1>
+    <form action="/redpanda">
+        <p>
+            <label for="username">Enter your username : </label>
+            <input type="text" placeholder="username" id="username">
+        </p>
+        <p>
+            <label for="password">Enter your password : </label>
+            <input type="password" placeholder="password" id="password">
+        </p>
+        <p>
+            <label for="color">Choose your color : </label>
+            <input type="color" id="color">
+        </p>
+        <p>
+            <label for="number">Enter your number : </label>
+            <input type="number" placeholder="enter a number" id="number">
+        </p>
+        <p>
+            <label> Enter your birthday :
+                <input type="date">
+            </label>
+        </p>
+        <!--This button submit the form-->
+        <button>submit</button>
+        <!--This button is just a button. Don't submit the form-->
+        <button type="button">submit</button>
+        <!--This button submit the form but not recommanded syntax-->
+        <input type="submit" value="submit">
+    </form>
+        <!--this button is out of the form-->
+        <button>submit</button>
+</body>
+
+</html>
