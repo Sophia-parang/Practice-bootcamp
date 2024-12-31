@@ -1,0 +1,50 @@
+body {
+    background-color: #eff7f6;
+}
+
+.post a {
+    text-decoration: none;
+    font-weight: 700;
+    color: #f2b5d4;
+}
+
+h1,
+h2 {
+    color: #f2b5d4;
+}
+
+button {
+    font-size: 20px;
+    color: #7bdff2;
+    background-color: #b2f7ef;
+}
+
+#signup {
+    color: #f2b5d4;
+    background-color: #f7d6e0;
+}
+
+span {
+    color: #f055a2;
+}
+
+.tag {
+    font-size: 15px;
+    background-color: #7bdff2;
+}
+
+button:hover {
+    color: #f055a2;
+    background-color: #f2b5d4;
+}
+
+.post a:hover {
+    color: #f055a2;
+    text-decoration: underline;
+
+}
+
+.post h2::first-letter {
+    color: purple;
+    font-size: larger;
+}

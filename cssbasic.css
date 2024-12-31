@@ -1,0 +1,15 @@
+h1 {
+    text-align: center;
+    font-weight: bold;
+    text-decoration: blue underline dotted;
+    letter-spacing: 15px;
+}
+
+p {
+    font-weight: lighter;
+    line-height: 2;
+}
+
+a {
+    text-decoration: none;
+}
